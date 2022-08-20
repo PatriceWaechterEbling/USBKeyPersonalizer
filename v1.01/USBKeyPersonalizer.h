@@ -19,11 +19,11 @@ VOID LireDonnees(CHAR* Lecteur);
 
 VOID ChargerIconeExistante();
 HRESULT CreerIcone(HICON hIcon, CHAR* path);
-static UINT EcrireEnteteIcone(HANDLE hFile, int nImages);
-static UINT CalculerOctetImage(BITMAP* pBitmap);
-static UINT EcrireEnteteImageIcone(HANDLE hFile, BITMAP* pbmpColor, BITMAP* pbmpMask);
-static BOOL LireInfosImageIcone(HICON hIcon, ICONINFO* pIconInfo, BITMAP* pbmpColor, BITMAP* pbmpMask);
-static UINT EcrireRepertoireImageIcone(HANDLE hFile, int nIdx, HICON hIcon, UINT nImageOffset);
-static UINT EcrireDonneesIcone(HANDLE hFile, HBITMAP hBitmap);
+UINT EcrireEnteteIcone(HANDLE hFile, int nImages);
+UINT CalculerOctetImage(BITMAP* pBitmap);
+UINT EcrireEnteteImageIcone(HANDLE hFile, BITMAP* pbmpColor, BITMAP* pbmpMask);
+BOOL LireInfosImageIcone(HICON hIcon, ICONINFO* pIconInfo, BITMAP* pbmpColor, BITMAP* pbmpMask);
+UINT EcrireRepertoireImageIcone(HANDLE hFile, int nIdx, HICON hIcon, UINT nImageOffset);
+UINT EcrireDonneesIcone(HANDLE hFile, HBITMAP hBitmap);
 BOOL EcrireIcone(TCHAR* szIconFile, HICON hIcon[], int nNumIcons);
 int ExtraireIconeDuFichier(TCHAR* filename, TCHAR* iconFile);
