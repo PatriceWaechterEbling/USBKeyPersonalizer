@@ -1,0 +1,8 @@
+EXPORTS
+	ListerDisques
+	AjourerLeNomDuProjet
+	MsgBox
+	EcrireDonnees
+	LireDonnees
+	ChargerIconeExistante
+
