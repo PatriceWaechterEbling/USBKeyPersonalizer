@@ -1,8 +1,15 @@
 EXPORTS
+	CreerIcone
+	EcrireEnteteIcone
+	CalculerOctetImage
+	EcrireEnteteImageIcone
+	LireInfosImageIcone
+	EcrireRepertoireImageIcone
+	EcrireDonneesIcone
+	EcrireIcone
+	ExtraireIconeDuFichier
 	ListerDisques
 	AjourerLeNomDuProjet
-	MsgBox
 	EcrireDonnees
 	LireDonnees
 	ChargerIconeExistante
-
