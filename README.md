@@ -8,3 +8,5 @@
   + Correction bug 
     * Offset IconDirectory dans les entetes icone
     * Segment ExtractIcone
+* Depot version 1.02
+  a venir
